@@ -6,6 +6,8 @@
 </template>
 
 <script>
+import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap-vue/dist/bootstrap-vue.css'
 import TodoList from './components/TodoList'
 
 export default {
@@ -22,7 +24,7 @@ export default {
 }
 
 .container {
-  max-width: 600px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
